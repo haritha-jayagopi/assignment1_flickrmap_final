@@ -1,0 +1,15 @@
+extends custom_layout
+
+block append content
+    header
+        h1.ui.header
+            | Custom Map
+block append content
+    .container
+        #search
+            label Search for geo-tagged photos using keyword
+            input#query(type='text', value='hamburger')
+            button#btn Search!
+        input#custom_query(type='text', placeholder='search box')
+        #custom-map-wrapper
+            #custom-map-canvas

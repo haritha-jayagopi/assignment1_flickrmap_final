@@ -1,0 +1,24 @@
+extends layout
+
+block append content
+  header
+    h1.ui.header
+      | Welcome to FlickrMap!
+    p
+      | Google Maps, Google Places & Flickr API Mashup
+    p
+      | Click below for Custom Map Page or About Page
+      #custom_map_link
+        a(href='custommap') Custom Map
+      #about_link
+        a(href='about') About
+block append content
+    .container
+      #search
+        label Search for geo-tagged photos using keyword
+        input#query(type='text', value='hamburger')
+        button#btn Search!
+      #map-wrapper
+        #map-canvas
+
+

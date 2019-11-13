@@ -1,0 +1,93 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #ccb7bd;
+  margin: 20px;
+  padding: 0px;
+}
+
+#custommaplink{
+  text-align: center;
+  color: #3d574f;
+  font-weight: bold;
+}
+
+p{
+  text-align: center;
+  color: #3d574f;
+}
+
+h1{
+  text-align: center;
+  color: #3d574f;
+}
+
+h2{
+  text-align: center;
+  color: #3d574f;
+}
+
+#search{
+  background: #60897d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#search label{
+  color: #fff;
+  padding: 8px 10px;
+  font-size: 18px;
+  margin: 0px;
+}
+
+#map-wrapper{
+  padding: 1%;
+  background: #fff;
+  border-radius: 5px;
+  height: 650px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#map-canvas{
+  height: 650px;
+  width: 900px;
+}
+
+#custom-map-wrapper{
+  padding: 1%;
+  background: #fff;
+  border-radius: 5px;
+  height: 650px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#custom-map-canvas{
+  height: 650px;
+  width: 900px;
+}
+
+#custom_query{
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#custom_map_link{
+  text-align: center;
+  color: #3d574f;
+  font-weight: bold;
+}
+
+#about_link{
+  text-align: center;
+  color: #3d574f;
+  font-weight: bold;
+}

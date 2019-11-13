@@ -1,0 +1,11 @@
+
+html
+  head
+    title CAB432 ASSIGNMENT 1 - Haritha Jayagopi
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js')
+    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBvkcKd8uh4Jq69ppMI4Bhzya7E6AjM3vk&sensor=false', async='', defer='')
+    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBvkcKd8uh4Jq69ppMI4Bhzya7E6AjM3vk&libraries=places&callback=initAutocomplete', async='', defer='')
+    script(src='javascripts/loadflickrmap.js')
+  body(onload="initialize()")
+    block content
